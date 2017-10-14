@@ -24,6 +24,8 @@ public class UserDomain {
     private String firstName;
     @Column
     private Date birthDate;
+    @Column
+    private String driverLicenceNumber;
 
     public Long getId() {
         return id;
